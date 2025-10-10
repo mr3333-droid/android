@@ -88,9 +88,9 @@ DEX2OAT_THREADS ?= 2
 
 ---
 
-## Device Features
+## Firmware Configuration
 
-AxionOS supports feature flags.  
+AxionOS added properties and flags to tune the OS for device experience.
 You can enable or disable them in your device makefile:
 
 ```make
@@ -132,6 +132,25 @@ TARGET_IS_LOW_RAM ?= false
 - **High Brightness Mode (HBM)**: Enable if your panel supports a high brightness toggle.  
 
 - **Flashlight strength**: Enable if torch supports strength changes.  
+
+## ScrollOptimizer
+
+ScrollOptimizer is an AxionOS feature that optimizes frame pacing and buffer handling during UI scroll and fling operations.
+It improves touch responsiveness and reduces rendering latency, ported from Linaro’s proprietary implementation.
+
+### Properties
+
+```make
+# Enable or disable ScrollOptimizer globally
+persist.sys.perf.scroll_opt = true
+
+# Heavy app handling mode
+# 0 - Disable heavy app classification
+# 1 - Enable dynamic detection (based on frame duration and buffer load)
+# 2 - Treat all apps as heavy for performance
+persist.sys.perf.scroll_opt.heavy_app = 2
+```
+**Source:** [ScrollOptimizer.java](https://github.com/AxionAOSP/android_frameworks_base/blob/lineage-23.0/core/java/com/android/internal/util/ScrollOptimizer.java)
 ---
 
 ## SEPolicy Adjustments
