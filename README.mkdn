@@ -77,17 +77,6 @@ These are automatically exported to system properties at build time.
 
 ---
 
-### Dex2Oat Optimization
-
-To speed up app compilation builders can increase, AxionOS limits dex2oat to a few cores to save resources:
-
-```make
-DEX2OAT_CORES ?= 0,1
-DEX2OAT_THREADS ?= 2
-```
-
----
-
 ## Firmware Configuration
 
 AxionOS added properties and flags to tune the OS for device experience.
