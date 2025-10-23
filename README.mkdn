@@ -54,6 +54,13 @@ Optional flags:
   (Disabled by default. Requires proper drivers and libraries.)  
   See the [ViPER4AndroidFX ReadMe](https://github.com/AxionAOSP/android_packages_apps_ViPER4AndroidFX/blob/v4a/README.md).
 
+- **Enable debugging**  
+  ```make
+  add in product overrides or set using console: adb shell setprop persist.sys.ax_debug_enabled 1 
+  persist.sys.ax_debug_enabled=1
+  ```
+  (Disabled by default. Meant for debugging purposes - bootloop, aidl/hardware dependency by sepolicy failure, etc)  
+
 ---
 
 ## AxionOS Device Properties
