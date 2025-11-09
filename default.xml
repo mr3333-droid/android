@@ -86,5 +86,6 @@
   <!-- Includes -->
   <include name="snippets/lineage.xml" />
   <include name="snippets/axion.xml" />
-
+  <include name="snippets/zorn.xml" />
+  
 </manifest>
