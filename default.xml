@@ -52,16 +52,13 @@
   <project path="development" name="LineageOS/android_development" groups="developers,pdk-cw-fs,pdk-fs,sysui-studio" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk" remote="aosp" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" remote="aosp" />
-  <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" remote="aosp" />
   <project path="device/generic/art" name="device/generic/art" groups="pdk" remote="aosp" />
-  <project path="device/generic/car" name="device/generic/car" groups="pdk" remote="aosp" />
   <project path="device/generic/common" name="LineageOS/android_device_generic_common" groups="pdk" />
   <project path="device/generic/goldfish" name="LineageOS/android_device_generic_goldfish" groups="pdk" />
   <project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" groups="pdk" remote="aosp" />
   <project path="device/generic/trusty" name="device/generic/trusty" groups="pdk" remote="aosp" />
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" remote="aosp" />
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" remote="aosp" />
-  <project path="device/google_car" name="device/google_car" groups="device,pdk" remote="aosp" />
   <project path="device/google/atv" name="LineageOS/android_device_google_atv" groups="device,broadcom_pdk,generic_fs,pdk" />
   <project path="device/google/contexthub" name="LineageOS/android_device_google_contexthub" groups="device,pdk" />
   <project path="device/google/cuttlefish" name="device/google/cuttlefish" groups="device,pdk" remote="aosp" />
@@ -649,20 +646,10 @@
   <project path="kernel/configs" name="LineageOS/android_kernel_configs" groups="vts,pdk" />
   <project path="kernel/prebuilts/6.1/arm64" name="kernel/prebuilts/6.1/arm64" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="kernel/prebuilts/6.1/x86_64" name="kernel/prebuilts/6.1/x86-64" groups="pdk" clone-depth="1" remote="aosp" />
-  <project path="kernel/prebuilts/6.6/arm64" name="kernel/prebuilts/6.6/arm64" groups="pdk" clone-depth="1" remote="aosp" />
-  <project path="kernel/prebuilts/6.6/x86_64" name="kernel/prebuilts/6.6/x86-64" groups="pdk" clone-depth="1" remote="aosp" />
-  <project path="kernel/prebuilts/6.12/arm64" name="kernel/prebuilts/6.12/arm64" groups="pdk" clone-depth="1" remote="aosp" />
-  <project path="kernel/prebuilts/6.12/x86_64" name="kernel/prebuilts/6.12/x86-64" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="kernel/prebuilts/mainline/arm64" name="kernel/prebuilts/mainline/arm64" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="kernel/prebuilts/mainline/x86_64" name="kernel/prebuilts/mainline/x86-64" groups="pdk" clone-depth="1" remote="aosp" />
-  <project path="kernel/prebuilts/common-modules/trusty/6.6/arm64" name="kernel/prebuilts/common-modules/trusty/6.6/arm64" groups="pdk" clone-depth="1" remote="aosp" />
-  <project path="kernel/prebuilts/common-modules/trusty/6.12/arm64" name="kernel/prebuilts/common-modules/trusty/6.12/arm64" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="kernel/prebuilts/common-modules/virtual-device/6.1/arm64" name="kernel/prebuilts/common-modules/virtual-device/6.1/arm64" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="kernel/prebuilts/common-modules/virtual-device/6.1/x86-64" name="kernel/prebuilts/common-modules/virtual-device/6.1/x86-64" groups="pdk" clone-depth="1" remote="aosp" />
-  <project path="kernel/prebuilts/common-modules/virtual-device/6.6/arm64" name="kernel/prebuilts/common-modules/virtual-device/6.6/arm64" groups="pdk" clone-depth="1" remote="aosp" />
-  <project path="kernel/prebuilts/common-modules/virtual-device/6.6/x86-64" name="kernel/prebuilts/common-modules/virtual-device/6.6/x86-64" groups="pdk" clone-depth="1" remote="aosp" />
-  <project path="kernel/prebuilts/common-modules/virtual-device/6.12/arm64" name="kernel/prebuilts/common-modules/virtual-device/6.12/arm64" groups="pdk" clone-depth="1" remote="aosp" />
-  <project path="kernel/prebuilts/common-modules/virtual-device/6.12/x86-64" name="kernel/prebuilts/common-modules/virtual-device/6.12/x86-64" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" name="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" name="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="kernel/tests" name="kernel/tests" groups="vts,pdk" remote="aosp" />
@@ -672,31 +659,6 @@
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/Car/CalendarPrebuilt" name="platform/packages/apps/Car/CalendarPrebuilt" groups="pdk-fs" clone-depth="1" remote="aosp" />
-  <project path="packages/apps/Car/Cluster" name="platform/packages/apps/Car/Cluster" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/Car/DebuggingRestrictionController" name="platform/packages/apps/Car/DebuggingRestrictionController" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/Car/DialerPrebuilt" name="platform/packages/apps/Car/DialerPrebuilt" groups="pdk-fs" clone-depth="1" remote="aosp" />
-  <project path="packages/apps/Car/DriverUIPrebuilt" name="platform/packages/apps/Car/DriverUIPrebuilt" groups="pdk-fs" clone-depth="1" remote="aosp" />
-  <project path="packages/apps/Car/LatinIME" name="platform/packages/apps/Car/LatinIME" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/Car/Launcher" name="platform/packages/apps/Car/Launcher" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/Car/LinkViewer" name="platform/packages/apps/Car/LinkViewer" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/Car/LocalMediaPlayer" name="platform/packages/apps/Car/LocalMediaPlayer" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/Car/MediaPrebuilt" name="platform/packages/apps/Car/MediaPrebuilt" groups="pdk-fs" clone-depth="1" remote="aosp" />
-  <project path="packages/apps/Car/MessengerPrebuilt" name="platform/packages/apps/Car/MessengerPrebuilt" groups="pdk-fs" clone-depth="1" remote="aosp" />
-  <project path="packages/apps/Car/Notification" name="platform/packages/apps/Car/Notification" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/Car/Provision" name="platform/packages/apps/Car/Provision" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/Car/RadioPrebuilt" name="platform/packages/apps/Car/RadioPrebuilt" groups="pdk-fs" clone-depth="1" remote="aosp" />
-  <project path="packages/apps/Car/References" name="platform/packages/apps/Car/References" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/Car/RotaryController" name="platform/packages/apps/Car/RotaryController" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/Car/RotaryImePrebuilt" name="platform/packages/apps/Car/RotaryImePrebuilt" groups="pdk-fs" clone-depth="1" remote="aosp" />
-  <project path="packages/apps/Car/Settings" name="LineageOS/android_packages_apps_Car_Settings" groups="pdk-fs,pdk-cw-tvc" />
-  <project path="packages/apps/Car/SettingsIntelligence" name="platform/packages/apps/Car/SettingsIntelligence" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/Car/systemlibs" name="platform/packages/apps/Car/systemlibs" groups="pdk-fs,pdk-cw-tvc" remote="aosp" />
-  <project path="packages/apps/Car/SystemUI" name="LineageOS/android_packages_apps_Car_SystemUI" groups="pdk-fs,pdk-cw-tvc" />
-  <project path="packages/apps/Car/SystemUpdater" name="platform/packages/apps/Car/SystemUpdater" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/Car/Templates" name="platform/packages/apps/Car/Templates" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/Car/VoiceControl" name="platform/packages/apps/Car/VoiceControl" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/Car/DataSubscriptionReference" name="platform/packages/apps/Car/DataSubscriptionReference" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/apps/CellBroadcastReceiver" name="LineageOS/android_packages_apps_CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -797,7 +759,6 @@
   <project path="packages/screensavers/PhotoTable" name="LineageOS/android_packages_screensavers_PhotoTable" groups="pdk-fs" />
   <project path="packages/services/AlternativeNetworkAccess" name="platform/packages/services/AlternativeNetworkAccess" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/services/BuiltInPrintService" name="platform/packages/services/BuiltInPrintService" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="packages/services/Car" name="LineageOS/android_packages_services_Car" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/DeviceAsWebcam" name="LineageOS/android_packages_services_DeviceAsWebcam" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Iwlan" name="platform/packages/services/Iwlan" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/services/Mms" name="LineageOS/android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" />
@@ -813,7 +774,6 @@
   <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" groups="pdk-fs" clone-depth="1" remote="aosp" />
   <project path="prebuilts/asuite" name="platform/prebuilts/asuite" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/bazel/common" name="platform/prebuilts/bazel/common" groups="pdk" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/bazel/darwin-x86_64" name="platform/prebuilts/bazel/darwin-x86_64" groups="notdefault,platform-darwin,darwin,pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" groups="linux,pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="pdk,sysui-studio" clone-depth="1" remote="aosp" />
   <project path="prebuilts/bundletool" name="platform/prebuilts/bundletool" groups="pdk" clone-depth="1" remote="aosp" />
@@ -827,7 +787,6 @@
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" groups="pdk-fs" clone-depth="1" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" groups="pdk,linux" clone-depth="1" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" groups="pdk-cw-fs,pdk-fs" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/go/darwin-x86" name="platform/prebuilts/go/darwin-x86" groups="notdefault,platform-darwin,darwin,pdk,tradefed" clone-depth="1" remote="aosp" />
   <project path="prebuilts/go/linux-x86" name="platform/prebuilts/go/linux-x86" groups="linux,pdk,tradefed" clone-depth="1" remote="aosp" />
   <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" groups="pdk,pdk-cw-fs,pdk-fs" clone-depth="1" remote="aosp" />
   <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" groups="pdk,sysui-studio" clone-depth="1" remote="aosp" />
