@@ -1,13 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- Remotes -->
   <remote name="github" fetch="https://github.com/" />
   <remote name="codeberg" fetch="https://codeberg.org/" />
 
-  <!-- ESSENCIAIS para boot -->
-  <project path="device/xiaomi/zorn" name="Little-Zorn-ID/android_device_xiaomi_zorn" remote="github" revision="main" />
-  <project path="kernel/xiaomi/zorn" name="Little-Zorn-ID/device_xiaomi_zorn-kernel" remote="github" revision="main" />
-  <project path="vendor/xiaomi/zorn" name="vherawidatama/android_vendor_xiaomi_zorn" remote="codeberg" revision="main" />
-  <project path="hardware/xiaomi" name="Little-Zorn-ID/hardware_xiaomi" remote="github" revision="main" />
-  <project path="hardware/qcom/display" name="Little-Zorn-ID/hardware_qcom_display" remote="github" revision="main" />
-  <project path="hardware/qcom/audio-ar" name="Little-Zorn-ID/hardware_qcom_audio-ar" remote="github" revision="main" />
+  <!-- Device Tree Zorn -->
+  <project path="device/xiaomi/zorn"
+           name="Little-Zorn-ID/android_device_xiaomi_zorn"
+           remote="github"
+           revision="main" />
+
+  <!-- Kernel Zorn -->
+  <project path="kernel/xiaomi/zorn"
+           name="Little-Zorn-ID/device_xiaomi_zorn-kernel"
+           remote="github"
+           revision="main" />
+
+  <!-- Vendor Blobs Zorn -->
+  <project path="vendor/xiaomi/zorn"
+           name="vherawidatama/android_vendor_xiaomi_zorn"
+           remote="codeberg"
+           revision="main" />
+
+  <!-- Hardware Xiaomi -->
+  <project path="hardware/xiaomi"
+           name="Little-Zorn-ID/hardware_xiaomi"
+           remote="github"
+           revision="main" />
+
+  <!-- Hardware Qualcomm Display -->
+  <project path="hardware/qcom/display"
+           name="Little-Zorn-ID/hardware_qcom_display"
+           remote="github"
+           revision="main" />
+
+  <!-- Hardware Qualcomm Audio -->
+  <project path="hardware/qcom/audio-ar"
+           name="Little-Zorn-ID/hardware_qcom_audio-ar"
+           remote="github"
+           revision="main" />
+
+  <!-- Common CAF -->
+  <project path="hardware/qcom-caf/common"
+           name="Little-Zorn-ID/hardware_qcom-caf_common"
+           remote="github"
+           revision="main" />
+
+  <!-- QCOM Opensource AGM -->
+  <project path="vendor/qcom/opensource/agm"
+           name="Little-Zorn-ID/vendor_qcom_opensource_agm"
+           remote="github"
+           revision="main" />
+
+  <!-- QCOM Opensource ARPAL -->
+  <project path="vendor/qcom/opensource/arpal-lx"
+           name="Little-Zorn-ID/vendor_qcom_opensource_arpal-lx"
+           remote="github"
+           revision="main" />
+
+  <!-- QCOM Opensource AudioReach -->
+  <project path="vendor/qcom/opensource/audioreach-graphservices"
+           name="Little-Zorn-ID/vendor_qcom_opensource_audioreach-graphservices"
+           remote="github"
+           revision="main" />
+
+  <!-- QCOM SEPolicy Vendor -->
+  <project path="device/qcom/sepolicy_vndr"
+           name="Little-Zorn-ID/device_qcom_sepolicy_vndr"
+           remote="github"
+           revision="main" />
+
+  <!-- TWRP Recovery -->
+  <project path="device/xiaomi/zorn-twrp"
+           name="Little-Zorn-ID/device_xiaomi_zorn-twrp"
+           remote="github"
+           revision="main" />
+
+  <!-- MIUI Camera Smali -->
+  <project path="vendor/miuicamera_smali"
+           name="Little-Zorn-ID/MiuiCamera_smali"
+           remote="github"
+           revision="main" />
 </manifest>
