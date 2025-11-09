@@ -109,6 +109,7 @@
 
   <!-- Android Manifest  -->
   <project path="android" name="android" remote="axion" />
+  <project path="axion_sdk" name="android_axion_sdk" remote="axion" />
 
   <project path="art" name="android_art" groups="pdk" remote="axion"/>
   <project path="bionic" name="android_bionic" groups="pdk" remote="axion"/>
