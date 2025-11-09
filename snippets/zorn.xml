@@ -1,24 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- Remotes -->
   <remote name="github" fetch="https://github.com/" />
   <remote name="codeberg" fetch="https://codeberg.org/" />
 
-  <!-- Device tree -->
-  <project path="device/xiaomi/zorn"
-           name="Little-Zorn-ID/android_device_xiaomi_zorn"
-           remote="github"
-           revision="main" />
-
-  <!-- Kernel tree -->
-  <project path="kernel/xiaomi/zorn"
-           name="Little-Zorn-ID/device_xiaomi_zorn-kernel"
-           remote="github"
-           revision="main" />
-
-  <!-- Vendor tree -->
-  <project path="vendor/xiaomi/zorn"
-           name="vherawidatama/android_vendor_xiaomi_zorn"
-           remote="codeberg"
-           revision="main" />
+  <!-- ESSENCIAIS para boot -->
+  <project path="device/xiaomi/zorn" name="Little-Zorn-ID/android_device_xiaomi_zorn" remote="github" revision="main" />
+  <project path="kernel/xiaomi/zorn" name="Little-Zorn-ID/device_xiaomi_zorn-kernel" remote="github" revision="main" />
+  <project path="vendor/xiaomi/zorn" name="vherawidatama/android_vendor_xiaomi_zorn" remote="codeberg" revision="main" />
+  <project path="hardware/xiaomi" name="Little-Zorn-ID/hardware_xiaomi" remote="github" revision="main" />
+  <project path="hardware/qcom/display" name="Little-Zorn-ID/hardware_qcom_display" remote="github" revision="main" />
+  <project path="hardware/qcom/audio-ar" name="Little-Zorn-ID/hardware_qcom_audio-ar" remote="github" revision="main" />
 </manifest>
