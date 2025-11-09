@@ -42,7 +42,33 @@
   <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" groups="pdk" />
   <project path="build/pesto" name="platform/build/pesto" groups="pdk" />
   <project path="build/release" name="platform/build/release" groups="pdk" />
+  <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk" remote="aosp" />
+  <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" remote="aosp" />
+  <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" remote="aosp" />
+  <project path="device/generic/art" name="device/generic/art" groups="pdk" remote="aosp" />
+  <project path="device/generic/car" name="device/generic/car" groups="pdk" remote="aosp" />
+  <project path="device/generic/common" name="LineageOS/android_device_generic_common" groups="pdk" />
+  <project path="device/generic/goldfish" name="LineageOS/android_device_generic_goldfish" groups="pdk" />
+  <project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" groups="pdk" remote="aosp" />
+  <project path="device/generic/trusty" name="device/generic/trusty" groups="pdk" remote="aosp" />
+  <project path="device/generic/x86" name="device/generic/x86" groups="pdk" remote="aosp" />
+  <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" remote="aosp" />
+  <project path="kernel/configs" name="LineageOS/android_kernel_configs" groups="vts,pdk" />
+  <project path="kernel/prebuilts/6.1/arm64" name="kernel/prebuilts/6.1/arm64" groups="pdk" clone-depth="1" remote="aosp" />
+  <project path="kernel/prebuilts/6.1/x86_64" name="kernel/prebuilts/6.1/x86-64" groups="pdk" clone-depth="1" remote="aosp" />
+  <project path="kernel/prebuilts/common-modules/virtual-device/6.1/arm64" name="kernel/prebuilts/common-modules/virtual-device/6.1/arm64" groups="pdk" clone-depth="1" remote="aosp" />
+  <project path="kernel/prebuilts/common-modules/virtual-device/6.1/x86-64" name="kernel/prebuilts/common-modules/virtual-device/6.1/x86-64" groups="pdk" clone-depth="1" remote="aosp" />
+  <project path="kernel/prebuilts/common-modules/virtual-device/6.6/arm64" name="kernel/prebuilts/common-modules/virtual-device/6.6/arm64" groups="pdk" clone-depth="1" remote="aosp" />
+  <project path="kernel/prebuilts/common-modules/virtual-device/6.6/x86-64" name="kernel/prebuilts/common-modules/virtual-device/6.6/x86-64" groups="pdk" clone-depth="1" remote="aosp" />
+  <project path="kernel/prebuilts/common-modules/virtual-device/6.12/arm64" name="kernel/prebuilts/common-modules/virtual-device/6.12/arm64" groups="pdk" clone-depth="1" remote="aosp" />
+  <project path="kernel/prebuilts/common-modules/virtual-device/6.12/x86-64" name="kernel/prebuilts/common-modules/virtual-device/6.12/x86-64" groups="pdk" clone-depth="1" remote="aosp" />
+  <project path="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" name="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" groups="pdk" clone-depth="1" remote="aosp" />
+  <project path="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" name="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" groups="pdk" clone-depth="1" remote="aosp" />
+  <project path="kernel/tests" name="kernel/tests" groups="vts,pdk" remote="aosp" />
 
+
+
+  
   <!-- Core runtime -->
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
