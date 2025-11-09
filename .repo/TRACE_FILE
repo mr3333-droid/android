@@ -1,0 +1,216 @@
+PID: 5504 START: 1762709440188052992 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://github.com/mr3333-droid/android.git, -b, lineage-23.0 [sid=repo-20251109T173035Z-P00001580/repo-20251109T173040Z-P00001580]
+
+PID: 5504 START: 1762709440205357312 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'init'] with debug: : export GIT_DIR=/home/murilo/android/android/.repo/manifests.git
+: git init 1>| 2>|
+
+PID: 5504 END: 1762709440212527872 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'init'] with debug: : export GIT_DIR=/home/murilo/android/android/.repo/manifests.git
+: git init 1>| 2>|
+
+PID: 5504 START: 1762709440213901056 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'config', '--file', '/home/murilo/android/android/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/murilo/android/android/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 5504 END: 1762709440216359936 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'config', '--file', '/home/murilo/android/android/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/murilo/android/android/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 5504 START: 1762709440216987136 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'config', '--file', '/home/murilo/android/android/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/murilo/android/android/.repo/manifests.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 5504 END: 1762709440218668544 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'config', '--file', '/home/murilo/android/android/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/murilo/android/android/.repo/manifests.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 5504 START: 1762709440218896384 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'config', '--file', '/home/murilo/android/android/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/murilo/android/android/.repo/manifests.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 5504 END: 1762709440221711360 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'config', '--file', '/home/murilo/android/android/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/murilo/android/android/.repo/manifests.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 5504 START: 1762709440221931264 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'config', '--file', '/home/murilo/android/android/.repo/manifests.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/murilo/android/android/.repo/manifests.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 5504 END: 1762709440223419648 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'config', '--file', '/home/murilo/android/android/.repo/manifests.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/murilo/android/android/.repo/manifests.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 5504 START: 1762709440223747072 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'config', '--file', '/home/murilo/android/android/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/mr3333-droid/android.git'] with debug: : git config --file /home/murilo/android/android/.repo/manifests.git/config --includes --replace-all remote.origin.url https://github.com/mr3333-droid/android.git 1>| 2>|
+
+PID: 5504 END: 1762709440226416128 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'config', '--file', '/home/murilo/android/android/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/mr3333-droid/android.git'] with debug: : git config --file /home/murilo/android/android/.repo/manifests.git/config --includes --replace-all remote.origin.url https://github.com/mr3333-droid/android.git 1>| 2>|
+
+PID: 5504 START: 1762709440226652416 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'config', '--file', '/home/murilo/android/android/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/murilo/android/android/.repo/manifests.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 5504 END: 1762709440229327616 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'config', '--file', '/home/murilo/android/android/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/murilo/android/android/.repo/manifests.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 5504 START: 1762709440229670144 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'config', '--file', '/home/murilo/android/android/.repo/manifests.git/config', '--includes', '--replace-all', 'manifest.platform', 'auto'] with debug: : git config --file /home/murilo/android/android/.repo/manifests.git/config --includes --replace-all manifest.platform auto 1>| 2>|
+
+PID: 5504 END: 1762709440231192832 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'config', '--file', '/home/murilo/android/android/.repo/manifests.git/config', '--includes', '--replace-all', 'manifest.platform', 'auto'] with debug: : git config --file /home/murilo/android/android/.repo/manifests.git/config --includes --replace-all manifest.platform auto 1>| 2>|
+
+PID: 5504 START: 1762709440231494400 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'config', '--file', '/home/murilo/android/android/.repo/manifests.git/config', '--includes', '--replace-all', 'core.repositoryFormatVersion', '1'] with debug: : git config --file /home/murilo/android/android/.repo/manifests.git/config --includes --replace-all core.repositoryFormatVersion 1 1>| 2>|
+
+PID: 5504 END: 1762709440234146048 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'config', '--file', '/home/murilo/android/android/.repo/manifests.git/config', '--includes', '--replace-all', 'core.repositoryFormatVersion', '1'] with debug: : git config --file /home/murilo/android/android/.repo/manifests.git/config --includes --replace-all core.repositoryFormatVersion 1 1>| 2>|
+
+PID: 5504 START: 1762709440234329856 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'config', '--file', '/home/murilo/android/android/.repo/manifests.git/config', '--includes', '--replace-all', 'extensions.preciousObjects', 'true'] with debug: : git config --file /home/murilo/android/android/.repo/manifests.git/config --includes --replace-all extensions.preciousObjects true 1>| 2>|
+
+PID: 5504 END: 1762709440236983808 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'config', '--file', '/home/murilo/android/android/.repo/manifests.git/config', '--includes', '--replace-all', 'extensions.preciousObjects', 'true'] with debug: : git config --file /home/murilo/android/android/.repo/manifests.git/config --includes --replace-all extensions.preciousObjects true 1>| 2>|
+
+PID: 5504 START: 1762709440237331968 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/lineage-23.0:refs/remotes/origin/lineage-23.0', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/home/murilo/android/android/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/lineage-23.0:refs/remotes/origin/lineage-23.0 +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 5504 END: 1762709444460249856 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/lineage-23.0:refs/remotes/origin/lineage-23.0', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/home/murilo/android/android/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/lineage-23.0:refs/remotes/origin/lineage-23.0 +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 5504 START: 1762709444460651264 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 5504 END: 1762709444463046656 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 5504 START: 1762709444463762688 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/lineage-23.0^0'] with debug: : git rev-parse --verify refs/remotes/origin/lineage-23.0^0 1>| 2>|
+
+PID: 5504 END: 1762709444465586944 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/lineage-23.0^0'] with debug: : git rev-parse --verify refs/remotes/origin/lineage-23.0^0 1>| 2>|
+
+PID: 5504 START: 1762709444465948416 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'update-ref', '--no-deref', 'HEAD', '8327126b7bb5b2f9e4764ab2d0601bb4854e87b4'] with debug: 
+: cd /home/murilo/android/android/.repo/manifests
+: git update-ref --no-deref HEAD 8327126b7bb5b2f9e4764ab2d0601bb4854e87b4 1>| 2>|
+
+PID: 5504 END: 1762709444469689344 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'update-ref', '--no-deref', 'HEAD', '8327126b7bb5b2f9e4764ab2d0601bb4854e87b4'] with debug: 
+: cd /home/murilo/android/android/.repo/manifests
+: git update-ref --no-deref HEAD 8327126b7bb5b2f9e4764ab2d0601bb4854e87b4 1>| 2>|
+
+PID: 5504 START: 1762709444470019328 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: : git read-tree --reset -u -v HEAD 2>|
+
+PID: 5504 END: 1762709444472969728 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: : git read-tree --reset -u -v HEAD 2>|
+
+PID: 5504 START: 1762709444473162496 :: load refs /home/murilo/android/android/.repo/manifests.git
+
+PID: 5504 END: 1762709444473651712 :: load refs /home/murilo/android/android/.repo/manifests.git
+
+PID: 5504 START: 1762709444473956864 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 5504 END: 1762709444476667136 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 5504 START: 1762709444476995072 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'rev-parse', 'HEAD'] with debug: : git rev-parse HEAD 1>| 2>|
+
+PID: 5504 END: 1762709444479659264 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'rev-parse', 'HEAD'] with debug: : git rev-parse HEAD 1>| 2>|
+
+PID: 5504 START: 1762709444480158720 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'checkout', '-q', '8327126b7bb5b2f9e4764ab2d0601bb4854e87b4', '--'] with debug: : git checkout -q 8327126b7bb5b2f9e4764ab2d0601bb4854e87b4 -- 2>|
+
+PID: 5504 END: 1762709444484690176 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'checkout', '-q', '8327126b7bb5b2f9e4764ab2d0601bb4854e87b4', '--'] with debug: : git checkout -q 8327126b7bb5b2f9e4764ab2d0601bb4854e87b4 -- 2>|
+
+PID: 5504 START: 1762709444485118464 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'update-ref', '-d', 'refs/heads/default'] with debug: : git update-ref -d refs/heads/default 1>| 2>|
+
+PID: 5504 END: 1762709444487108352 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'update-ref', '-d', 'refs/heads/default'] with debug: : git update-ref -d refs/heads/default 1>| 2>|
+
+PID: 5504 START: 1762709444487533568 :: scan refs /home/murilo/android/android/.repo/manifests.git
+
+PID: 5504 END: 1762709444487667456 :: scan refs /home/murilo/android/android/.repo/manifests.git
+
+PID: 5504 START: 1762709444487992576 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 5504 END: 1762709444490894080 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 5504 START: 1762709444491249920 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'rev-parse', 'HEAD'] with debug: : git rev-parse HEAD 1>| 2>|
+
+PID: 5504 END: 1762709444493044224 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'rev-parse', 'HEAD'] with debug: : git rev-parse HEAD 1>| 2>|
+
+PID: 5504 START: 1762709444493527808 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 5504 END: 1762709444496011520 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 5504 START: 1762709444496314368 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'rev-parse', 'HEAD'] with debug: : git rev-parse HEAD 1>| 2>|
+
+PID: 5504 END: 1762709444498941952 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'rev-parse', 'HEAD'] with debug: : git rev-parse HEAD 1>| 2>|
+
+PID: 5504 START: 1762709444499085312 :: scan refs /home/murilo/android/android/.repo/manifests.git
+
+PID: 5504 END: 1762709444499211008 :: scan refs /home/murilo/android/android/.repo/manifests.git
+
+PID: 5504 START: 1762709444499552000 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'update-ref', 'refs/heads/default', '8327126b7bb5b2f9e4764ab2d0601bb4854e87b4'] with debug: : git update-ref refs/heads/default 8327126b7bb5b2f9e4764ab2d0601bb4854e87b4 1>| 2>|
+
+PID: 5504 END: 1762709444501843712 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'update-ref', 'refs/heads/default', '8327126b7bb5b2f9e4764ab2d0601bb4854e87b4'] with debug: : git update-ref refs/heads/default 8327126b7bb5b2f9e4764ab2d0601bb4854e87b4 1>| 2>|
+
+PID: 5504 START: 1762709444502164736 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'symbolic-ref', 'HEAD', 'refs/heads/default'] with debug: : git symbolic-ref HEAD refs/heads/default 1>| 2>|
+
+PID: 5504 END: 1762709444505403904 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'symbolic-ref', 'HEAD', 'refs/heads/default'] with debug: : git symbolic-ref HEAD refs/heads/default 1>| 2>|
+
+PID: 5504 START: 1762709444505911296 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 5504 END: 1762709444508530176 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 5504 START: 1762709444538905856 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 5504 END: 1762709444541580544 :git command /home/murilo/android/android/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 5504 END: 1762709444541782784 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://github.com/mr3333-droid/android.git, -b, lineage-23.0 [sid=repo-20251109T173035Z-P00001580/repo-20251109T173040Z-P00001580]
+
+PID: 5577 START: 1762709467658952704 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: sync [sid=repo-20251109T173107Z-P000015c9/repo-20251109T173107Z-P000015c9]
+
+PID: 5577 START: 1762709467661473536 :git command None ['git', 'config', '--file', '/home/murilo/android/android/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/murilo/android/android/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 5577 END: 1762709467663830784 :git command None ['git', 'config', '--file', '/home/murilo/android/android/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/murilo/android/android/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 5577 START: 1762709467678567680 :git command None ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : cd /home/murilo/android/android/.repo/repo
+: git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 5577 END: 1762709467681064448 :git command None ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : cd /home/murilo/android/android/.repo/repo
+: git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 5577 START: 1762709467681292032 :git command None ['git', 'config', '--file', '/home/murilo/android/android/.repo/repo/.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/murilo/android/android/.repo/repo/.git/config --includes --null --list 1>| 2>|
+
+PID: 5577 END: 1762709467683639296 :git command None ['git', 'config', '--file', '/home/murilo/android/android/.repo/repo/.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/murilo/android/android/.repo/repo/.git/config --includes --null --list 1>| 2>|
+
+PID: 5577 START: 1762709467684008192 :git command None ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 5577 END: 1762709467686369024 :git command None ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 5577 START: 1762709467686601984 :git command None ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: 
+: cd /home/murilo/android/android/.repo/manifests
+: git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 5577 END: 1762709467688993792 :git command None ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: 
+: cd /home/murilo/android/android/.repo/manifests
+: git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 5577 START: 1762709467689225728 :git command None ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 5577 END: 1762709467691634944 :git command None ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 5577 START: 1762709467698459648 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 5577 END: 1762709467701061376 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 5577 END: 1762709467701272832 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: sync [sid=repo-20251109T173107Z-P000015c9/repo-20251109T173107Z-P000015c9]
+
+PID: 5762 START: 1762709761671371776 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: sync [sid=repo-20251109T173601Z-P00001682/repo-20251109T173601Z-P00001682]
+
+PID: 5762 START: 1762709761671685120 :: parsing /home/murilo/android/android/.repo/manifests.git/config
+
+PID: 5762 END: 1762709761671802112 :: parsing /home/murilo/android/android/.repo/manifests.git/config
+
+PID: 5762 START: 1762709761688793088 :git command None ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : cd /home/murilo/android/android/.repo/repo
+: git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 5762 END: 1762709761691204864 :git command None ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : cd /home/murilo/android/android/.repo/repo
+: git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 5762 START: 1762709761691324416 :: parsing /home/murilo/android/android/.repo/repo/.git/config
+
+PID: 5762 END: 1762709761691433216 :: parsing /home/murilo/android/android/.repo/repo/.git/config
+
+PID: 5762 START: 1762709761691646464 :git command None ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 5762 END: 1762709761694069248 :git command None ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 5762 START: 1762709761694288640 :git command None ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: 
+: cd /home/murilo/android/android/.repo/manifests
+: git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 5762 END: 1762709761696664576 :git command None ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: 
+: cd /home/murilo/android/android/.repo/manifests
+: git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 5762 START: 1762709761696895744 :git command None ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 5762 END: 1762709761699311360 :git command None ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 5762 START: 1762709761706052608 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 5762 END: 1762709761708634880 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 5762 END: 1762709761708761856 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: sync [sid=repo-20251109T173601Z-P00001682/repo-20251109T173601Z-P00001682]
+
+PID: 6746 START: 1762710334161150720 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://github.com/mr3333-droid/android.git, -b, lineage-23.0, --git-lts [sid=repo-20251109T174533Z-P00001a5a/repo-20251109T174534Z-P00001a5a]
+
+PID: 6746 START: 1762710334161454592 :: parsing /home/murilo/android/android/.repo/manifests.git/config
+
+PID: 6746 END: 1762710334161573632 :: parsing /home/murilo/android/android/.repo/manifests.git/config
+
+PID: 6746 END: 1762710334162956800 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://github.com/mr3333-droid/android.git, -b, lineage-23.0, --git-lts [sid=repo-20251109T174533Z-P00001a5a/repo-20251109T174534Z-P00001a5a]
+
