@@ -69,11 +69,8 @@
   <project path="prebuilts/bazel/common" name="platform/prebuilts/bazel/common" groups="pdk" clone-depth="1" />
   <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" groups="pdk" clone-depth="1" />
 
-  <!-- Your module under external/ -->
-  <remote name="github"
-          fetch="https://github.com/" />
-  <project path="vendor/avraham/iwtools"
-           name="ouroboros6/iwtools"
-           remote="github"
-           revision="main" />
+  </project>
+
+  <include name="snippets/lineage.xml" />
+  <include name="snippets/axion.xml" />
 </manifest>
